@@ -277,7 +277,7 @@ const LoveLetterCard = () => {
               queria te desejar tudo de bom na sua vida, muitas bençãos e saúde.
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Esse período de um ano foi um tanto que muito diferente do que eu
               pude imaginar. Aconteceram muitas boas, mas também ruins.
               Obviamente, não fico feliz por conta das coisas ruins, mas sei
@@ -285,19 +285,19 @@ const LoveLetterCard = () => {
               cada vez mais.
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Espero poder passar mais um ano ao seu lado, recebendo seus
               ensinamentos, crescendo no propósito, ajudando sua célula, e
               finalmente poder começar a minha.
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Talvez para você seja só mais um ano, mas para mim esse vai ser um
               marco importante, porque vai ser dessa data que, no futuro, eu vou
               poder me lembrar do tanto que mudei…
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Os meus planos para nossa amizade nesse ano não são nada absurdos,
               na verdade, é uma coisa bem simples. Eu pretendo me tornar a
               melhor companhia possível para você, não estou dizendo que eu
@@ -306,19 +306,19 @@ const LoveLetterCard = () => {
               sou, e vou continuar me esforçando”.
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Sei que talvez seja demais o que estou pedindo, mas tudo que eu
               puder participar e você quiser companhia, pode contar comigo. Pode
               ser coisa besta, tipo ir em um restaurante novamente rs.
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Não vou prolongar nisso acima, sobre contar comigo, porque eu sei
               que ainda preciso me esforçar bastante para poder me considerar um
               grande amigo seu.
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Eu vou me esforçar para voltarmos a ter uma amizade boa que nem
               quando eu ia te buscar, por mais que provavelmente aquela época
               foi nossa amizade mais forte, eu sei que obviamente não vai ser
@@ -326,7 +326,7 @@ const LoveLetterCard = () => {
               ano.
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Mas resumidamente, é isso, muito obrigado por todas essas
               oportunidades de melhorar. Eu tenho noção de que toda vez que eu
               faço algo de errado, você tende a querer menos se aproximar de
@@ -336,12 +336,12 @@ const LoveLetterCard = () => {
               obrigado, foram palavras muito importantes para mim…
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Eu tenho fé que algum dia você irá postar novamente algo falando
               que sou a melhor companhia (deixa eu sonhar rs).
             </p>
 
-            <p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Saiba que você ainda é minha melhor amiga, e vou lutar para não te
               perder.
             </p>
