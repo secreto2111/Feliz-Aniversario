@@ -157,7 +157,7 @@ const PhotoSection = () => {
               <Image
                 src={photos[currentPhoto].url}
                 alt="Nossos momentos especiais"
-                className={`w-full max-w-80 h-64 sm:h-80 mx-auto object-cover rounded-xl shadow-xl border-4 border-white transition-all duration-300 group-hover:scale-105 ${fadeClass}`}
+                className={`w-full max-w-80 h-64 sm:h-80 mx-auto object-cover object-top rounded-xl shadow-xl border-4 border-white transition-all duration-300 group-hover:scale-105 ${fadeClass}`}
               />
             </div>
 
