@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import restaurante from "./images/restaurante.jpeg";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Feliz Aniversário",
   description: "Cartinha de feliz aniversario",
+  icons: {
+    icon: restaurante.src,
+    shortcut: restaurante.src,
+    apple: restaurante.src,
+  },
 };
 
 export default function RootLayout({
