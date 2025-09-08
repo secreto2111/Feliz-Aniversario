@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import restaurante from "./images/restaurante.jpeg";
 
 // Necessário para que os crawlers (WhatsApp, Discord, etc.) encontrem a imagem correta
-// no GitHub Pages com basePath
+// no GitHub Pages com basePath, usando um caminho estável do diretório public/
 const BASE_PATH = "/Feliz-Aniversario";
-const OG_IMAGE = `${BASE_PATH}${restaurante.src}`; // ex: /Feliz-Aniversario/_next/static/media/xxx.jpeg
+const OG_IMAGE = `${BASE_PATH}/og.jpg`;
 const ABS_OG_IMAGE = `https://secreto2111.github.io${OG_IMAGE}`;
 
 const geistSans = Geist({
