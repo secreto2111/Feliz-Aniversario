@@ -269,6 +269,7 @@ const LoveLetterCard = () => {
               Minha amizade mais valiosa,
               <div className="text-2xl">🌺</div>
             </div>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">teste</p>
 
             <p>
               Após um ano da minha primeira cartinha, estou aqui mais uma vez.
