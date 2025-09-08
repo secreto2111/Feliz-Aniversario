@@ -3,6 +3,12 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import restaurante from "./images/restaurante.jpeg";
 
+// Necessário para que os crawlers (WhatsApp, Discord, etc.) encontrem a imagem correta
+// no GitHub Pages com basePath
+const BASE_PATH = "/Feliz-Aniversario";
+const OG_IMAGE = `${BASE_PATH}${restaurante.src}`; // ex: /Feliz-Aniversario/_next/static/media/xxx.jpeg
+const ABS_OG_IMAGE = `https://secreto2111.github.io${OG_IMAGE}`;
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -17,9 +23,33 @@ export const metadata: Metadata = {
   title: "Feliz Aniversário",
   description: "Cartinha de feliz aniversario",
   icons: {
-    icon: restaurante.src,
-    shortcut: restaurante.src,
-    apple: restaurante.src,
+    icon: ABS_OG_IMAGE,
+    shortcut: ABS_OG_IMAGE,
+    apple: ABS_OG_IMAGE,
+  },
+  // Gera URLs absolutas corretas para GitHub Pages
+  metadataBase: new URL("https://secreto2111.github.io"),
+  openGraph: {
+    title: "Feliz Aniversário",
+    description: "Cartinha de feliz aniversario",
+    url: "/Feliz-Aniversario",
+    siteName: "Feliz Aniversário",
+    images: [
+      {
+        url: ABS_OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: "Nosso Jardim de Memórias",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Feliz Aniversário",
+    description: "Cartinha de feliz aniversario",
+    images: [ABS_OG_IMAGE],
   },
 };
 
