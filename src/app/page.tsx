@@ -2,8 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 import {
-  Heart,
-  Sparkles,
   Star,
   Coffee,
   Music,
@@ -414,9 +412,9 @@ const Footer = () => {
         <div className="relative z-10">
           <div className="text-gray-700 text-base sm:text-lg font-medium mb-4 flex items-center justify-center gap-2">
             <div className="text-rose-400">🌸</div>
-            "Regues uma planta e ela te presenteará uma bela flor; Cultives uma
+            &quot;Regues uma planta e ela te presenteará uma bela flor; Cultives uma
             amizade e terás um porto seguro; Promovas a bondade e alcançarás,
-            como fruto, a mão de Deus."
+            como fruto, a mão de Deus.&quot;
             <div className="text-pink-400">🌸</div>
           </div>
           <p className="text-rose-500 font-bold">
