@@ -256,12 +256,7 @@ const LoveLetterCard = () => {
         >
           <div className="text-right mb-4 sm:mb-6 text-gray-600 text-sm sm:text-base md:text-lg flex items-center justify-end gap-2">
             <div className="text-rose-400">🌸</div>
-            {new Date().toLocaleDateString("pt-BR", {
-              weekday: "long",
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
+            Segunda-feira, 8 de setembro de 2025
           </div>
 
           <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed space-y-4 sm:space-y-6">
@@ -273,7 +268,7 @@ const LoveLetterCard = () => {
 
             <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
               Após um ano da minha primeira cartinha, estou aqui mais uma vez.
-              Podendo comemorar mais um ano de vida ao seu lado. Primeiramente
+              Podendo comemorar mais um ano de sua vida ao seu lado. Primeiramente
               queria te desejar tudo de bom na sua vida, muitas bençãos e saúde.
             </p>
 
